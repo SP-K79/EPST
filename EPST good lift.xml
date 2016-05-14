@@ -1,0 +1,215 @@
+﻿<?xml version="1.0"?>
+
+<PropertyList>
+
+ <scenario>
+  <name>Thermals around EPST(good lift)</name>
+  <description>
+     The &lt;height&gt; tag defines the upper limit of the thermal.
+     AI thermals have some limitations, i.e. they don't lean
+     downwind, they are only cylindrical in shape, they don't
+     interact with the terrain or weather. They work with JSBSim and
+     YASim. Try using the sgs233 model or the Bocian for a good
+     demonstration.
+
+     Thermals created by SP-K79
+  </description>
+ 
+<!-- ########################################## -->
+<!-- THERMALS                                   -->
+<!-- ########################################## -->
+
+  <entry>
+   <!-- Location:  Turbia -->
+   <type>thermal</type>
+   <latitude>50.6195</latitude>
+   <longitude>21.985969</longitude>
+   <strength-fps>16.411</strength-fps>
+   <diameter-ft>4921.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  field -->
+   <type>thermal</type>
+   <latitude>50.630717</latitude>
+   <longitude>22.030311</longitude>
+   <strength-fps>22.97</strength-fps>
+   <diameter-ft>5249.34</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  Pilchow -->
+   <type>thermal</type>
+   <latitude>50.617370</latitude>
+   <longitude>22.023863</longitude>
+   <strength-fps>13.49</strength-fps>
+   <diameter-ft>4800.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  Agatowka -->
+   <type>thermal</type>
+   <latitude>50.610028</latitude>
+   <longitude>22.008542</longitude>
+   <strength-fps>19.68</strength-fps>
+   <diameter-ft>4593.17</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  Wolka Turbeska -->
+   <type>thermal</type>
+   <latitude>50.646299</latitude>
+   <longitude>21.982084</longitude>
+   <strength-fps>14.30</strength-fps>
+   <diameter-ft>4750.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  Stalowa Wola -->
+   <type>thermal</type>
+   <latitude>50.572835</latitude>
+   <longitude>22.053216</longitude>
+   <strength-fps>29.52</strength-fps>
+   <diameter-ft>6233.59</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  Jamnice -->
+   <type>thermal</type>
+   <latitude>50.5757927</latitude>
+   <longitude>21.92712</longitude>
+   <strength-fps>13.49</strength-fps>
+   <diameter-ft>4800.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  Kotowa Wola -->
+   <type>thermal</type>
+   <latitude>50.61483</latitude>
+   <longitude>21.925714</longitude>
+   <strength-fps>15.49</strength-fps>
+   <diameter-ft>4879.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  Zbydniow -->
+   <type>thermal</type>
+   <latitude>50.636617</latitude>
+   <longitude>21.935126</longitude>
+   <strength-fps>12.94</strength-fps>
+   <diameter-ft>5074.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  Wola Rzeczycka -->
+   <type>thermal</type>
+   <latitude>50.657701</latitude>
+   <longitude>22.017376</longitude>
+   <strength-fps>13.49</strength-fps>
+   <diameter-ft>4986.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  Brandwica -->
+   <type>thermal</type>
+   <latitude>50.613843</latitude>
+   <longitude>22.069733</longitude>
+   <strength-fps>24.61</strength-fps>
+   <diameter-ft>10000.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/thermalcap.xml</model>
+  </entry>
+
+<!-- ########################################## -->
+<!-- SINKS                                      -->
+<!-- ########################################## -->
+
+  <entry>
+   <!-- Location:  ? -->
+   <type>thermal</type>
+   <latitude>50.637434</latitude>
+   <longitude>22.006460</longitude>
+   <strength-fps>-10</strength-fps>
+   <diameter-ft>10000.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/null.ac</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  ? -->
+   <type>thermal</type>
+   <latitude>50.57524</latitude>
+   <longitude>21.988124</longitude>
+   <strength-fps>-9</strength-fps>
+   <diameter-ft>10000.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/null.ac</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  ? -->
+   <type>thermal</type>
+   <latitude>50.595907</latitude>
+   <longitude>21.900737</longitude>
+   <strength-fps>-12</strength-fps>
+   <diameter-ft>10000.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/null.ac</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  ? -->
+   <type>thermal</type>
+   <latitude>50.601529</latitude>
+   <longitude>22.031930</longitude>
+   <strength-fps>-11</strength-fps>
+   <diameter-ft>10000.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/null.ac</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  ? -->
+   <type>thermal</type>
+   <latitude>50.644077</latitude>
+   <longitude>21.975164</longitude>
+   <strength-fps>-7</strength-fps>
+   <diameter-ft>10000.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/null.ac</model>
+  </entry>
+
+  <entry>
+   <!-- Location:  ? -->
+   <type>thermal</type>
+   <latitude>50.627582</latitude>
+   <longitude>21.951271</longitude>
+   <strength-fps>-8</strength-fps>
+   <diameter-ft>10000.0</diameter-ft>
+   <height-msl>6000</height-msl>
+   <model>Models/Geometry/null.ac</model>
+  </entry>
+
+ </scenario>
+
+</PropertyList>
